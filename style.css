@@ -1,14 +1,15 @@
-body {
-    margin: 0;
+body{
+    overflow:visible !important;
 }
+#main-content{
+  margin-top: 4vw;
+}
+
 #nav-bar{
-    overflow: hidden;
     background-color: rgb(75, 67, 67);
     position: fixed;
     top: 0;
     width: 100%;
-
-
 }
 
 #nav-bar a {
@@ -24,4 +25,8 @@ body {
 #nav-bar a:hover{
     background: rgb(243, 82, 82);
     color: black;
+}
+
+ul, ol, li {
+    list-style: none;
 }

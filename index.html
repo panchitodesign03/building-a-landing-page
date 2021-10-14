@@ -4,35 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sick Beats!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header id="header">
         <!--consider adding a company logo for the image-->
         <img id="header-img" />
     </header>
-    <nav id="nav-bar">
-        <a href="#features" target="_self" rel="noopener noreferrer" class="nav-link">Sick Beats</a>
-        <a href="#how-it-works" target="_self" rel="noopener noreferrer" class="nav-link">How it Works</a>
-        <a href="#pricing" target="_self" rel="noopener noreferrer" class="nav-link">Pricing</a>
-    </nav>
+            <nav id="nav-bar">
+                <a href="#features" target="_self" rel="noopener noreferrer" class="nav-link">Sick Beats</a>
+                <a href="#how-it-works" target="_self" rel="noopener noreferrer" class="nav-link">How it Works</a>
+                <a href="#pricing" target="_self" rel="noopener noreferrer" class="nav-link">Pricing</a>
+            </nav>
+    <div id="main-content">
+        <div id="features">
+            <ul>
+                <li>
+                    <span class="glyphicon glyphicon-music"></span>
+                    <p>I can make the sickest beats using my sound engineering skills, using a sick sample collection I have build up over
+                        the
+                        years, and connections to multiple musicians. </p>
+                </li>
+                <li>
+                    <span class="glyphicon glyphicon-sunglasses"></span>
+                    <p>I have a huge online following on streaming platforms like youtube, tiktok, and twitch. </p>
+                </li>
+                <li>
+                    <span class="glyphicon glyphicon-tower"></span>
+                    <p>You are the master of your project. I am just here to weave your dream together.</p>
+                </li>
+            </ul>
+        </div>
+        <div id="how-it-works">
+            <h2>Check out what I can do LIVE!</h2>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/8vJXMVf1W60"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div id="pricing">
+            <div class="pricing-explanation">
+                <h3>Free Access</h3>
+                <p>You'll be able to check out my live streams, an invite to my private discord chat, and exclusive accesss to new content.</p>
+            </div>
+            <div class="pricing-explanation">
+                <h3>Pro Access - $25</h3>
+                <p>Everything included in the free tier AND 30 min of collaboration and studio time wtih me. No one else. Just you, your project, and me. </p>
+            </div>
+            <div class="pricing-explanation">
+                <h3>Premiere Access - $100</h3>
+                <p>Everything inlcuded in the previous tiers plus exclusive backstage access to concerts, invitations to collaborate on other artist's works, direct message capabilities to discuss your project.</p>
+            </div>
+        </div>
 
-    <div id="features">
-        
+        <div id="sign-up">
+            <form action="https://www.freecodecamp.com/email-submit">
+                <input type="email" name="" id="email" placeholder="Enter your email address" required>
+                <input type="submit" id="submit" value="Get Started">
+            </form>
+        </div>
     </div>
-
-    <div id="how-it-works">
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/8vJXMVf1W60" title="YouTube video player"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
-    <div id="pricing"></div>
-    <div id="sign-up">
-        <form action="https://www.freecodecamp.com/email-submit">
-            <input type="email" name="" id="email" placeholder="Enter your email address" required>
-            <input type="submit" value="Get Started" id="submit">
-        </form>
-    </div>
+    
 </body>
 </html>
