@@ -1,8 +1,18 @@
 body{
     overflow:visible !important;
+    font-family: 'Roboto', sans-serif;
 }
+
+h1, #nav-bar, h2, h3 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+
 #main-content{
   margin-top: 4vw;
+  padding-top: 1.5vw;
+  width: 100%;
+  background-color: rgb(247, 83, 83);
 }
 
 #nav-bar{
@@ -10,6 +20,11 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+#header-img{
+    width: 50%;
+    height: auto;
 }
 
 #nav-bar a {
