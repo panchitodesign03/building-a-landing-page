@@ -9,10 +9,15 @@ h1, #nav-bar, h2, h3 {
 
 
 #main-content{
-  margin-top: 4vw;
-  padding-top: 1.5vw;
+  margin-top: 3vw;
+  padding-top: 0.5vw;
   width: 100%;
   background-color: rgb(247, 83, 83);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
 }
 
 #nav-bar{
@@ -23,8 +28,11 @@ h1, #nav-bar, h2, h3 {
 }
 
 #header-img{
-    width: 50%;
+    margin-left: 2vw;
+    width: 40%;
     height: auto;
+
+
 }
 
 #nav-bar a {
@@ -44,4 +52,15 @@ h1, #nav-bar, h2, h3 {
 
 ul, ol, li {
     list-style: none;
+    font-size: 1.2vw;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+        
+}
+.glyphicon {
+    font-size: 3.5vw;
 }
