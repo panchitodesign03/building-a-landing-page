@@ -7,11 +7,19 @@ h1, #nav-bar, h2, h3 {
     font-family: 'Permanent Marker', cursive;
 }
 
+#content-holder{
+    border-radius: 1.2vw;
+    margin-left: 1vw;
+    width: 98%;
+    margin-top: 10vw;
+    margin-bottom: 4%;
+    border-style: solid;
+    border-color: #167ac6;
+    border-width: 0.7vw;
+}
 
 #main-content{
-  margin-top: 3vw;
-  padding-top: 0.5vw;
-  width: 100%;
+
   background-color: rgb(247, 83, 83);
   
   display: flex;
@@ -29,9 +37,9 @@ h1, #nav-bar, h2, h3 {
 
 #header-img{
     margin-left: 2vw;
-    width: 40%;
+    width: 50%;
     height: auto;
-
+    border-radius: 1vw;
 
 }
 
@@ -52,7 +60,7 @@ h1, #nav-bar, h2, h3 {
 
 ul, ol, li {
     list-style: none;
-    font-size: 1.2vw;
+    font-size: 2.2vw;
 }
 
 li{
