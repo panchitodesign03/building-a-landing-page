@@ -7,20 +7,23 @@ h1, #nav-bar, h2, h3 {
     font-family: 'Permanent Marker', cursive;
 }
 
+
+
 #content-holder{
-    border-radius: 1.2vw;
-    margin-left: 1vw;
-    width: 98%;
-    margin-top: 10vw;
-    margin-bottom: 4%;
-    border-style: solid;
-    border-color: #167ac6;
-    border-width: 0.7vw;
+   border-radius: 1.2vw;
+   margin-left: 1vw;
+   width: 98%;
+   margin-top: 10vw;
+   margin-bottom: 4%;
+   border-style: solid;
+   border-color: #593ee5;
+   border-width: 0.7vw;
+   
 }
 
 #main-content{
-
-  background-color: rgb(247, 83, 83);
+    width: 100%;
+    background-color: rgb(247, 83, 83);
   
   display: flex;
   flex-direction: column;
@@ -36,10 +39,11 @@ h1, #nav-bar, h2, h3 {
 }
 
 #header-img{
-    margin-left: 2vw;
-    width: 50%;
-    height: auto;
-    border-radius: 1vw;
+       margin-left: 2vw;
+       width: 50%;
+       height: auto;
+       border-radius: 1vw;
+       box-shadow: #ab1800 10px 10px;
 
 }
 
@@ -66,9 +70,24 @@ ul, ol, li {
 li{
     display: flex;
     flex-direction: row;
-    margin-left: 1%;
-        
+    margin-left: -4vw;
 }
+
 .glyphicon {
     font-size: 3.5vw;
+}
+
+/*text at 600*/
+h1 {font-size: 4.4vw;} h2 {font-size: 3.75vw;} h3{font-size: 2.7vw;}
+
+#header, #how-it-works, #features, #pricing, #pricing-title {
+    margin-left: 2%;
+}
+p.feature-explanation {
+    margin-left: 2%;
+}
+
+div#pricing {
+    display: flex;
+    flex-direction: row;
 }
